@@ -18,3 +18,6 @@ CREATE TABLE Trabajadores (ID_Trabajador SERIAL PRIMARY KEY, Nombre_Trabajador V
 
 CREATE TABLE Liquidaciones (ID_Liquidacion SERIAL PRIMARY KEY, Liq_Drive TEXT NOT NULL,ID_Trabajador INT NOT NULL REFERENCES trabajadores(ID_Trabajador));
 
+SELECT * FROM Departamento;
+SELECT * FROM Trabajadores;
+SELECT * FROM Liquidaciones;
