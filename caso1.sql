@@ -7,7 +7,7 @@
 ----La liquidación se guarda en un archivo drive.
 
 --En el dibujo identifique 3 entidades Trabajador, Liquidaciones y Departamento
---cada una con sus propios 
+--cada una con sus propios atributos
 
 CREATE DATABASE empresa_1;
 \c empresa_1;
